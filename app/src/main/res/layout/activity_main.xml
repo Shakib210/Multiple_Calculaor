@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#373737"
+    tools:context="calculator.example.calculator.MainActivity">
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Scientific calculator"
+        android:id="@+id/sc"
+         android:background="@drawable/round"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Normal calculator"
+        android:id="@+id/cal"
+
+        />
+    
+
+    <Button
+        android:layout_marginTop="10dp"
+    android:layout_width="200sp"
+    android:layout_height="wrap_content"
+        android:text="Age Calculator"
+        android:id="@+id/age"
+        android:background="@drawable/round"
+        />
+
+
+</LinearLayout>

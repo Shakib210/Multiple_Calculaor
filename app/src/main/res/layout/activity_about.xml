@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#393838"
+    tools:context="calculator.example.calculator.about">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Version: 1"
+        android:textColor="#EAE4E4"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by:"
+        android:textColor="#EAE4E4"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nazmus Shakib"
+        android:textColor="#EAE4E4"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_marginLeft="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="        Daffodil international university"
+        android:textStyle="italic"
+        android:textColor="#EAE4E4"
+        android:textSize="20sp"
+        />
+
+
+
+</LinearLayout>
